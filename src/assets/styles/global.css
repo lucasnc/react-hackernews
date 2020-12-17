@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css?family=Ubuntu:400,700&display=swap');
+
+:root {
+    --color-text: #CFD2D3;
+    --color-text-muted: #cfd2d35d;
+    --color-primary: #15151a;
+    --color-secondary: #15151a;
+  }
+
+  * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+  }
+
+  html, body, #root {
+      height: 100vh;
+  }
+
+  body {
+    background: var(--color-primary);
+    -webkit-font-smoothing: antialiased;
+    font: 1rem Ubuntu, sans-serif;
+    color: var(--color-text);
+    font-weight: 400;
+    line-height: 1.5;
+  }
+  
+  #root {
+      display: flex;
+      justify-content: center;
+  }
+
+  input,
+  button,
+  textarea {
+      font: 5rem Ubuntu, sans-serif;
+      color: var(--color-text)
+  }
+
+  svg {
+    margin: .50rem;
+  }
